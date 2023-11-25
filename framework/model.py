@@ -18,3 +18,4 @@ class MLP(nn.Module):
         l3 = self.layer_2(a2)
         a3 = self.act_2(l3)
         return a3.view(-1)
+        
